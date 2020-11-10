@@ -1,0 +1,159 @@
+body{
+    background-color: #000000;
+}
+
+header .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-family: 'MuseoModerno', cursive;
+    margin: 10px;
+    margin-top: -50px;
+    font-size: 14pt;
+}
+
+header a:hover{
+    color: #c72a59;
+}
+
+.logo h2{
+    color: white;
+    font-family: 'MuseoModerno', cursive;
+    font-weight: bold;
+    font-size: 22pt;
+    margin-left: 50px;
+    margin-top: -5px;
+    background: -webkit-linear-gradient(rgb(247, 66, 171), rgb(101, 166, 250));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div h1{
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(255, 107, 156));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: 'MuseoModerno', cursive;
+}
+
+
+*{
+    box-sizing: border-box;
+  }
+  
+  .container {
+    position: relative;
+  }
+  
+  .mySlides {
+    margin-left: 300px;
+    width:1500px;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  .next {
+    right: 283px;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev{
+      left:295px;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+    font-family: 'MuseoModerno', cursive;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+}
+
+footer .div1{
+    background-color: #383838;
+    padding: 10px;
+    margin-bottom: -10px;
+    margin-top: 20px;
+    margin-left: -15px;
+    width: 700px;
+}
+
+footer .div2{
+    background-color: #302f2f;
+    padding: 10px;
+    margin-bottom: -10px;
+    margin-top: 20px;
+    width: 500px;
+}
+
+footer .div3{
+    background-color: #ea98bb;
+    padding: 10px;
+    margin-bottom: -10px;
+    margin-top: 20px;
+    margin-right: -8px;
+    width: 300px;
+}
